@@ -1,5 +1,5 @@
 // Config
-var trackRegex = /\s?(\d+\.)?\s?(.+) - (.+)/g;
+var trackRegex = /\s*(\d+\.)?\s?(.+) - (.+)/g;
 
 console.log('This would be the main JS file.');
 
