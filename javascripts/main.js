@@ -9,8 +9,16 @@ function init () {
 	 $("#convert-playlist").click(function(){
         convertPlaylist();
     });
+	
+	$("#reset").click(function(){
+        reset();
+    });
 }
 
+function reset() {
+	$("#main-output").empty();
+	$("#main-input").val("");
+}
 
 function searchTracks(arr) {
 	var i = 1;
